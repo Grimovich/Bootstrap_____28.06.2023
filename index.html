@@ -1,14 +1,404 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Grimovich Tea</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img class="logo" src="assets/img/grimovich_tea_logo.png" alt="logo">
+            </a>
+            <a class="navbar-brand fw-bold fs-2" href="#">TEA SHOP</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Tea Collection</a></li>
+                <li class="nav-item dropdown">
 
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Contacts
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Facebook</a></li>
+                    <li><a class="dropdown-item" href="#">Twitter</a></li>
+                    <li><a class="dropdown-item" href="#">Instagram</a></li>
+                    <li><a class="dropdown-item" href="#">Github</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Phone</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6 col-lg-2 order-md-2 order-lg-last">
+        <div class="card mt-4">
+          <img src="assets/img/puer.jpg" class="card-img-top" alt="wine-info">
+          <div class="card-body">
+            <p class="card-text"><span class="fw-bold">Shu Pu'er Tea</span> This vintage tea consists of aged shu Pu'er
+              that is compressed into a cake and packed in traditional bamboo leaf bundles called a tong. This reserve
+              Pu'er tea is released only when it is ready. A deep garnet infusion with a dense, opaque liquor bears a
+              mellow sweetness that drinks remarkably smooth with a rich earth body.
+            </p>
+          </div>
+        </div>
+        <div class="card mt-4">
+          <img src="assets/img/milk_oolong.jpg" class="card-img-top" alt="wine-info">
+          <div class="card-body">
+            <p class="card-text"><span class="fw-bold">Milk Oolong</span> ​​​​Oolong teas are highly sought-after by tea
+              connoisseurs for their wonderfully complex aromatic profiles and are some of the most artisanal teas in
+              the world.</p>
+          </div>
+        </div>
+        <div class="card mt-4">
+          <img src="assets/img/roibos.jpg" class="card-img-top" alt="wine-info">
+          <div class="card-body">
+            <p class="card-text"><span class="fw-bold">Rooibos tea</span> Rooibos (pronounced ROY-boss) tea is a red
+              herbal tea that comes from the fermented leaves of the Aspalathus linearis shrub, a plant native to South
+              Africa.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-8 order-md-1">
+        <div class="accordion accordion-flush mt-4" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed text-uppercase" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                HISTORY OF TEA
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                Once upon a time in a quaint village nestled amidst rolling hills, there existed a rich and vibrant tea
+                culture. The villagers cherished tea not only as a beverage but as a way of life—a sacred ritual passed
+                down through generations.
+
+                In this village, every morning began with the tantalizing aroma of freshly brewed tea wafting through
+                the air. The village elder, an esteemed tea master named Mei Ling, would gather the villagers under the
+                ancient willow tree. Clad in traditional robes, Mei Ling would meticulously prepare and serve tea with
+                grace and precision.
+
+                Tea ceremonies became the heart and soul of the village, where people would come together to share
+                stories, laughter, and moments of serenity. The village square transformed into a haven, adorned with
+                colorful silk cushions and low tables. The melodies of a zither and soft whispers of wind chimes filled
+                the air, creating an ambiance of tranquility.
+
+
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed text-uppercase" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Special tea's
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body"> Special teas encompass a world of enchantment, where flavors and aromas
+                transport you to distant lands and unique experiences. These teas possess qualities that make them truly
+                extraordinary, whether it's their rarity, production process, or exceptional flavor profiles. Let me
+                introduce you to a few fascinating examples of special teas:
+
+                Darjeeling First Flush: Known as the "Champagne of Teas," Darjeeling First Flush is a highly prized tea
+                harvested from the misty slopes of the Himalayas. This tea is plucked in the early spring, yielding
+                delicate leaves with a light golden liquor and floral notes. Its limited availability and exquisite
+                taste make it a favorite among tea connoisseurs.
+
+                Matcha: Originating from Japan, Matcha is a powdered green tea renowned for its vibrant green color and
+                rich umami flavor. It is produced through a meticulous process where tea leaves are shaded before
+                harvest, hand-picked, steamed, dried, and ground into a fine powder. Matcha is traditionally prepared in
+                a bowl, whisked with hot water, creating a frothy and invigorating elixir.
+
+                White Peony (Bai Mu Dan): White tea represents the epitome of elegance, and White Peony is a prized
+                variety. Hand-plucked from the young leaves and unopened buds of the tea plant, it is minimally
+                processed, allowing the natural flavors to shine. This tea boasts a delicate, fruity taste with a subtle
+                sweetness and is revered for its antioxidant properties.
+
+                Dong Ding Oolong: Hailing from Taiwan, Dong Ding Oolong is a semi-oxidized tea that embodies the
+                artistry of oolong production. Its leaves are carefully hand-rolled into distinctive twisted shapes and
+                roasted to create a complex and captivating flavor profile. With notes of toasted nuts, honey, and
+                orchid, Dong Ding Oolong offers a captivating sensory experience...
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed text-uppercase" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Etymology
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">The word "tea" has an interesting etymology that traces its roots back to
+                ancient China. The Chinese character for tea is 茶 (chá), which is pronounced similarly across various
+                Chinese dialects.
+
+                The earliest recorded usage of the word tea dates back to the 8th century during the Tang Dynasty in
+                China. The pronunciation at that time was closer to "tú" or "dá" depending on the region. It is believed
+                that this early pronunciation influenced the tea-related terms used in other East Asian languages such
+                as Korean ("cha") and Japanese ("cha" or "te").
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3 mt-4">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="assets/img/chaynaya_ceremoniya.jpg" class="img-fluid article-img" alt="house">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Tea ceremonies</h5>
+                <p class="card-text">Tea ceremonies are revered rituals that have been practiced for centuries in
+                  various cultures, most notably in East Asia. They embody a profound philosophy and offer a meditative
+                  experience centered around the preparation, serving, and consumption of tea. These tea ceremonies
+                  serve as cultural expressions, bringing people together and fostering deeper connections. They
+                  encourage mindfulness, appreciation for nature, and the enjoyment of the present moment. Each ceremony
+                  offers a unique experience, reflecting the philosophies and aesthetics of the respective cultures,
+                  while celebrating the art and beauty of tea.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3 mt-4">
+          <div class="row g-0">
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">The Tea Shop</h5>
+                <p class="card-text">Entering the charming tea shop, you're greeted by the delightful aroma of various
+                  tea leaves, mingling harmoniously in the air. Shelves adorned with colorful canisters and delicate
+                  teaware line the walls, creating an inviting atmosphere of serenity and discovery.
+
+                  The shop owner, a passionate tea connoisseur, stands behind the counter with a warm smile. Their
+                  knowledge and love for tea are evident in the way they curate the collection and share stories of each
+                  tea's origin and unique characteristics.
+
+                  You browse the neatly organized displays, exploring the diverse selection of teas from around the
+                  world. There are teas from renowned tea-growing regions such as China, Japan, India, Sri Lanka, and
+                  Kenya. From fragrant herbal infusions to rare oolongs, from delicate white teas to robust black teas,
+                  the shop offers a range of flavors and profiles to suit every palate.
+
+                  As you explore, you notice the carefully crafted blends that marry different teas with aromatic herbs,
+                  flowers, or spices. There are soothing blends for relaxation, invigorating blends for energy, and
+                  indulgent dessert teas that tempt your taste buds. The colorful array of loose-leaf teas invites you
+                  to embark on a journey of exploration and sensory pleasure.</p>
+                <p class="card-text"><small class="text-muted">Last updated 5 mins ago</small></p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <img src="assets/img/tea_ceremony.jpg" class="img-fluid article-img" alt="house">
+            </div>
+          </div>
+        </div>
+
+        <div class="border border-secondary border-1 rounded-1 bg-body-tertiary p-4">
+          <h4 class="m">Create account</h4>
+          <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Password</label>
+              <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="Address">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress2" class="form-label">Apartamen</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Number, floor">
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">City</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">State</label>
+              <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option>Ukraine</option>
+                <option>Romania</option>
+                <option>Moldova</option>
+                <option>Italy</option>
+                <option>France</option>
+                <option>UK</option>
+                <option>USA</option>
+                <option>Canada</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Postal code</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Save the password
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-2 order-md-3 order-lg-first mt-4">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/img/tea-plantations.jpg" class="d-block w-100 rounded" alt="wine-photo">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/tea-plantations2.jpg" class="d-block w-100 rounded" alt="wine-photo">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/tea_plantations_image.jpg" class="d-block w-100 rounded" alt="wine-photo">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="card mt-4">
+          <img src="assets/img/World-map-of-tea-producing-regions.png" class="card-img-top" alt="wine-map">
+          <div class="card-body">
+            <p class="card-text fs-3 text-center text">Tea producing regions</p>
+          </div>
+
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Green tea
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Green tea is a beloved type of tea that is cherished for its refreshing taste and numerous health
+                    benefits. It is produced from the leaves of the Camellia sinensis plant, the same plant that gives
+                    us black tea, oolong tea, and white tea. However, what sets green tea apart is its minimal oxidation
+                    during processing, allowing it to retain its natural green color and a distinctive flavor profile.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Black tea
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Black tea is a rich and bold beverage known for its dark color, robust flavor, and energizing
+                    qualities. It undergoes full oxidation during processing, resulting in a distinct taste that can
+                    range from malty and earthy to fruity and floral. With its higher caffeine content compared to other
+                    teas, black tea is often enjoyed as a morning or midday pick-me-up. It is versatile, serving as a
+                    base for flavored blends or enjoyed on its own. Whether steeped hot or brewed into refreshing iced
+                    tea, black tea is cherished for its comforting and invigorating nature.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Herbal tea
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>
+                    Herbal tea, also known as tisane, offers a soothing and caffeine-free alternative to traditional
+                    tea. It is made from a variety of dried herbs, flowers, fruits, and spices, resulting in a diverse
+                    range of flavors and aromas. Herbal teas are enjoyed for their calming and relaxing qualities,
+                    making them popular choices for unwinding and promoting overall well-being. Each herbal infusion
+                    carries its unique properties, with flavors that can be herbal, floral, fruity, or spicy. From
+                    chamomile for relaxation to peppermint for digestion, herbal teas provide a delightful and
+                    comforting way to indulge in a caffeine-free beverage that can be enjoyed throughout the day and
+                    night.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-4">
+      <div class="col">
+        <footer class="bg-light text-center">
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            <img class="btn social-img" src="assets/img/facebook.png" alt="social-image-facebook">
+            <img class="btn social-img" src="assets/img/twitter.png" alt="social-image-twitter">
+            <img class="btn social-img" src="assets/img/google-plus.png" alt="social-image-google-plus">
+            <img class="btn social-img" src="assets/img/github.png" alt="social-image-github">
+            <img class="btn social-img" src="assets/img/instagram.png" alt="social-image-instagram">
+            <img class="btn social-img" src="assets/img/linkedin.png" alt="social-image-linkedin">
+            <p class="mt-2">&copy; Grimovici Nichita</p>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
